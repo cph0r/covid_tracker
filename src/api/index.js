@@ -9,6 +9,6 @@ export const fetchData = async () => {
         return {confirmed, recovered, deaths, lastUpdate}
 
     } catch(error){
-        console.log(error)
+        console.log(error);
     }
 }
